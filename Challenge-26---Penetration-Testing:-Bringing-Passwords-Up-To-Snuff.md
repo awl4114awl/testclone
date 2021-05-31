@@ -3,7 +3,7 @@
 "We have reason to believe that some of our employees have weaker than should be acceptable passwords, so we want you to conduct authorized penetration testing against various company assets to determine which employees need to change their passwords."
 
 **Use Kali Linux to attempt an attack on Pretty Safe Electronic's Active Directory house on 171.16.30.55**<br><br>
---We will be using Metasploit's Axiliary smblookupsid to exploit the directory to enumerate authorized users. <br>
+--We will be using Metasploit's Auxiliary smblookupsid to exploit the directory to enumerate authorized users. <br>
 --We will be using the output from Metasploit output in Hydra to target the specific users on the directory. <br>
 --We will use the common "rockyou.txt" wordlist to test against the users for weak passwords. <br><br><br>
 **Force password reset on identified users with weak passwords.**<br><br>
